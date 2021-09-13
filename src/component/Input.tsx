@@ -34,11 +34,11 @@ const Input2 = styled.input`
 `;
 
 interface Iprops {
-    id: string,
-    type: string,
-    labelTxt: string,
-    index: number,
-    placeholder?: string,
+    id: string;
+    type: string;
+    labelTxt: string;
+    index: number;
+    placeholder?: string;
 }
 
 const Input = (_props: Iprops) => {

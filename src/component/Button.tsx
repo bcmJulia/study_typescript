@@ -21,8 +21,8 @@ font-weight: 600;
 `;
 
 interface Iprops {
-    id: string,
-    buttonTxt: string,
+    id: string;
+    buttonTxt: string;
 }
 
 const Button = (_props: Iprops) => {
